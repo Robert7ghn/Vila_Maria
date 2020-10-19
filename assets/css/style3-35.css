@@ -5,6 +5,7 @@ body {
 	background-color:#67de67;
 }
 
+
 .padding{
 			margin:0.1rem;
 }
@@ -114,13 +115,13 @@ button.navbar-toggler { margin-right:1.2rem;
 }	
 
 #rez {
-			background-color:#222;
+			background-color:rgb(236, 127, 127);
             width: 100%;
 			
 }
 
 #rooms-btn {
-			background-color:#ffffb3;		
+			background-color:#d8550aec;		
 }
 
 .carousel-inner img {
