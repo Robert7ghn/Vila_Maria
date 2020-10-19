@@ -113,9 +113,14 @@ button.navbar-toggler { margin-right:1.2rem;
 			padding:0.4rem;
 }	
 
-#rooms-btn {
-			background-color:#ffffb3;
+#rez {
+			background-color:#222;
+            width: 100%;
 			
+}
+
+#rooms-btn {
+			background-color:#ffffb3;		
 }
 
 .carousel-inner img {
@@ -247,8 +252,8 @@ hr.light-100 {
 }
 
 #dotari {
-			         background-color:orange;
-					background-image:url(img/drap.png);
+			        background-color:orange;
+					background-image:url(assets/img/drap.png);
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
