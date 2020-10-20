@@ -83,23 +83,21 @@ button.navbar-toggler { margin-right:1.2rem;
      border: 1px solid #000;
  }
  
- #facil			
+ #facil		
 				{
-					background-color:orange;
-					background-image:url(img/peisa1-2.png);
+					background-color: ;
+					background-image:url('../img/peis1.png');
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: top;
                     background-size: cover;	
-					padding: 0.6rem ;
-					
+					padding: 0.6rem ;			
 	}
  
-
-#servicii		
+#serv		
 				{
-					background-color:orange;
-					background-image:url(img/garden.jpg);
+					background-color:lightblue;
+					background-image:;
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
@@ -254,7 +252,7 @@ hr.light-100 {
 
 #dotari {
 			        background-color:orange;
-					background-image:url(assets/img/drap.png);
+					background-image:url("../assets/img/drap.png");
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
