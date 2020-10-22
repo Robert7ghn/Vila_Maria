@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 if (isset($_POST['SUBMIT'])) {
@@ -17,3 +18,6 @@ if (isset($_POST['SUBMIT'])) {
 }
 
 
+=======
+aaa
+>>>>>>> c0379b068a2709e92e2e8745a0d8d382164c97a8
