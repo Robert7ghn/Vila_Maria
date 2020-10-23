@@ -1,23 +1,16 @@
-<<<<<<< HEAD
 <?php
 
-if (isset($_POST['SUBMIT'])) {
-	$name = $_POST['name'];
-	$subject = $_POST['subject'];
-	$mailFrom = $_POST['mail'];
-	$message = $_POST['message'];
+if (isset($_POST['submit'])) 
+{
+    $name = $_POST['name'];
+	$mailFrom = $_POST['email'];
 	
-	$mailTo = "robert1971ro@gmail.com";
+	$mailTo = "maria@vila-maria.online";
 	$headers = "From: ".$mailFrom;
-	$txt = "You have received an e-mail from ".$name.".\n\n".$message;
+	$txt = "You have received an e-mail from ".$name;
 	
 	
-	
-	mail($mailTo,$subject, $txt, $headers);
-    header("Location:index.php?mailsend");
+    mail($mailTo,$subject, $txt, $headers);
+
 }
-
-
-=======
-aaa
->>>>>>> c0379b068a2709e92e2e8745a0d8d382164c97a8
+?>
