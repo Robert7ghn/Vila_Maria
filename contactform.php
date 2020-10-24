@@ -10,7 +10,7 @@ if (isset($_POST['submit']))
 	$txt = "You have received an e-mail from ".$name;
 	
 	
-    mail($mailTo,$subject, $txt, $headers);
+    mail($mailTo, $txt, $headers);
 
 }
 ?>
