@@ -143,25 +143,15 @@
 			<div class="center-form">
 				<form class="contact-form" action="contactform.php" method="post">
 
-					<label for="name" style="color:red"><strong>Nume:</strong></label>
-					<input  type="text" name="name" placeholder="Numele:" id="fname" class="form-control" style="color:white; background-color:rgba(00,255,255, 0.3)" required />
-					<label for="Pname" style="color:red"><strong>Prenume:</strong></label>
-					<input  type="text" name="Pname" placeholder="Prenumele:" id="lname" class="form-control" style="color:white; background-color:rgba(00,255,255, 0.3)" required />
-					<label for="BDate" style="color:red"><strong>Data nasterii:</strong></label>
-					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="BDate" id="b-date" class="form-control" required />
-					<br>
-					<label for="" style="color:red"><strong>Date contact:</strong></label>
-					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="phone" id="phone" class="form-control" placeholder="Phone:" required />
-					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="email" name="email" id="email" class="form-control" placeholder="Email:" required />
-					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="address" id="address" class="form-control" placeholder="Address:" required />
-					<textarea name="message" placeholder="Mesaj:"rows="8" cols="80"> </textarea>
+						<input  name="name" type="text" class="form-control" placeholder="Your Name:" id="fname" required />
+						<br>
+						<input  name="email" type="email" class="form-control" placeholder="Email:" id="fname" required />
+						<br>
+						<textarea name="message" class="form-control" placeholder="Mesaj:" rows="4" required> </textarea>
+						<br>
+						<input type="submit" class="form-control submit" value="SEND MESSAGE">
+					</form>
 
-					<div class="form-row text-center">
-						<div class="col">
-							<button type="submit" name="submit"><em>SEND<em></button>
-						</div>
-					</div>
-				</form>
 			</div>
 
 
@@ -530,7 +520,7 @@
 																																					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. persoane:" required />
 																																					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="nr-cam" id="nr-cam" class="form-control" placeholder="Nr. camere:"required />
 																																					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. nopti:" required />
-																																					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="period" id="period" class="form-control" placeholder="Perioada:" required />
+																																					<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="message" id="period" class="form-control" placeholder="Perioada:" required />
 																																					<div
 																																						class="form-row text-center">
 																																						<div
