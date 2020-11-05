@@ -1,12 +1,11 @@
 <?php
 	$name = $_POST['name'];
 	$visitor_email = $_POST['email'];
-	$message = $_POST['mesage'];
-	
+	$message = $_POST['message'];
 	
 	$email_from = "$visitor_email";
 	
-	$email_subject = "Cerere-Rezervare - ";
+	$email_subject = "Cerere-Rezervare";
 	
 	$email_body = "User Name: $name.\n".
 					"User Email: $visitor_email.\n".

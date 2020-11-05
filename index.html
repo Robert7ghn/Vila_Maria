@@ -46,7 +46,7 @@
 			}
 
 			h3 {
-				color: green;
+				color:navy;
 				font-family: Times;
 				font-style: italic;
 				letter-spacing: 2px;
@@ -74,6 +74,17 @@
 				font-weight: none;
 				font-style: italic;
 			}
+
+            .l-red {
+                color:#ff0232;
+                font-style:italic;
+            }
+
+.form-control {
+                color:white; 
+                background-color:rgba(33,0,77, 0.77);
+}
+
 		</style>
 	</head>
 
@@ -488,23 +499,23 @@
 																																						action="contactform.php"
 																																						method="post"
 																																						style="background-color:rgba(255,255,0,0.1)">
-																																						<label for="name" style="color:red"><strong>Nume:</strong></label>
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="name" id="fname" class="form-control" required />
-																																						<label for="lname" style="color:red"><strong>Prenume:</strong></label>
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="lname" id="lname" class="form-control" required />
-																																						<label for="b-date" style="color:red"><strong>Data nasterii:</strong></label>
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="b-date" id="b-date" class="form-control" required />
+																																						<label for="name" class="l-red"><strong>Nume:</strong></label>
+																																						<input type="text" name="name" id="fname" class="form-control" required />
+																																						<label for="pren" class="l-red"><strong>Prenume:</strong></label>
+																																						<input type="text" name="lname" id="lname" class="form-control" required />
+																																						<label for="b-date" class="l-red"><strong>Data nasterii:</strong></label>
+																																						<input type="text" name="b-date" id="b-date" class="form-control" required />
 																																						<br>
-																																						<label for=" " style="color:red"><strong>Date contact:</strong></label>
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="phone" id="phone" class="form-control" placeholder="Telefon:" required />
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="email" name="email" id="email" class="form-control" placeholder="E-mail:" required />
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="address" id="address" class="form-control" placeholder="Adresa:" required />
+																																						<label for="Date-Contact" class="l-red"><strong>Date contact:</strong></label>
+																																						<input type="text" name="phone" id="phone" class="form-control" placeholder="Telefon:" required />
+																																						<input type="email" name="email" id="email" class="form-control" placeholder="E-mail:" required />
+																																						<input type="text" name="address" id="address" class="form-control" placeholder="Adresa:" required />
 																																						<br>
-																																						<label for=" " style="color:red"><strong>Date rezervare:</strong></label>
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. persoane:" required />
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="nr-cam" id="nr-cam" class="form-control" placeholder="Nr. camere:"required />
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. nopti:" required />
-																																						<input style="color:white; background-color:rgba(00,255,255, 0.3)" type="text" name="message" id="period" class="form-control" placeholder="Perioada:" required />
+																																						<label for="DR" class="l-red"><strong>Date rezervare:</strong></label>
+																																						<input type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. persoane:" required />
+																																						<input type="text" name="nr-cam" id="nr-cam" class="form-control" placeholder="Nr. camere:"required />
+																																						<input type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. nopti:" required />
+																																						<input type="text" name="message" id="period" class="form-control" placeholder="Perioada:" required />
 																																						<div
 																																							class="form-row text-center">
 																																							<div
