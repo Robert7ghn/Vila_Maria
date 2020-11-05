@@ -90,7 +90,7 @@
 
 	<body>
 		<!-- Navigation -->
-		<nav id="home" class="navbar navbar-expand-md navbar-light sticky-top">
+		<nav id="home" class="navbar navbar-expand-md navbar-light">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="index.html"> <img src="assets/img/icon.png" > </a>
 					<h1>&nbsp Vila Maria &nbsp
@@ -103,7 +103,7 @@
 					<div class="collapse navbar-collapse" id="navbarResponsive">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link" target="_blanc" href="index.html">Acasa</a>
+								<a class="nav-link" href="index.html">Acasa</a>
 							</li>
 
 							<li class="nav-item">
@@ -115,7 +115,7 @@
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link" href="#rez">Rezervari</a>
+								<a class="nav-link" target="_blank" href="#rez">Rezervari</a>
 							</li>
 
 							<li class="nav-item">
@@ -182,13 +182,16 @@
 						</div>
 					</div>
 				</div>
+                 <br>
+                <br>
 			</div>
 
 			<!-----------------  Servicii oferite : -->
-
 			<div id="serv" class="container-fluid ">
 				<div class="row text-center">
 					<div class="col-lg-12" class="text-center">
+                <br>
+                <br>
 						<h3>Servicii:</h3>
 						<p> Vila Maria, va ofera servicii de cazare in statiunea montana Busteni, pe toata
 							perioada anului, amplasarea oferind o vedere panoramica impunatoare asupra Muntilor Bucegi,
@@ -196,6 +199,7 @@
 							unde puteti admira in fiecare noapte senina, Crucea Eroilor luminata, de pe muntele
 							Caraiman.
 						</p>
+                        <br>
 					</div>
 				</div>
 			</div>
@@ -213,7 +217,6 @@
 
 				<div id="rooms-btn" class="text-center">
 					<button style="margin-bottom:0.5rem; margin-top:0.5rem; background-color:darkred" class="btn btn-primary" data-toggle="collapse" data-target="#emoji"><i class="far fa-hand-point-right"></i> Vezi Camere </button>
-
 					<div id="emoji" class="collapse">
 
 						<!-- CARDS -->
@@ -304,7 +307,7 @@
 
 			<!-- Two Columns, slider -->
 
-			<div class="container-fluid padding">
+			<div class="container-fluid padding" style="padding-top:0.5rem; padding-bottom:0.5rem">
 				<div class="row padding">
 					<div class="col-lg-6 text-center" style="padding-top:6rem">
 						<h3>&nbsp &nbsp Imprejurimi: </h3>
@@ -469,16 +472,14 @@
 
 																																	<!-- Rezervari - form  -->
 																																	<div id="rez"
-																																		class="text-center"
-																																		style="background-color:none;">
-																																		<p>Va
+																																		class="text-center">
+																																		<p style="color:navy; font-style:italic; font-size:1.2rem; padding-top:2.5rem; padding-bottom:2.8rem">Va
 																																			asteptam
 																																			cu
 																																			drag
 																																			!
 																																		</p>
-																																		<hr class="clear"
-																																			style="width:100%">
+																																		
 																																	</div>
 																																	<div class="container-fluid"
 																																		id="#rez">
@@ -488,8 +489,8 @@
 																																				class="col">
 																																				<h3
 																																					class="contact-heading text-center">
-																																					Solicita
-																																					Rezervare:
+																																					<p>Solicita
+																																					Rezervare:</p>
 																																				</h3>
 
 																																				<div
@@ -499,19 +500,19 @@
 																																						action="contactform.php"
 																																						method="post"
 																																						style="background-color:rgba(255,255,0,0.1)">
-																																						<label for="name" class="l-red"><strong>Nume:</strong></label>
+																																						<label for="name" class="l-red"><strong>&nbsp&nbsp Nume:</strong></label>
 																																						<input type="text" name="name" id="fname" class="form-control" required />
-																																						<label for="pren" class="l-red"><strong>Prenume:</strong></label>
+																																						<label for="pren" class="l-red"><strong>&nbsp&nbsp Prenume:</strong></label>
 																																						<input type="text" name="lname" id="lname" class="form-control" required />
-																																						<label for="b-date" class="l-red"><strong>Data nasterii:</strong></label>
+																																						<label for="b-date" class="l-red"><strong>&nbsp&nbsp Data nasterii:</strong></label>
 																																						<input type="text" name="b-date" id="b-date" class="form-control" required />
 																																						<br>
-																																						<label for="Date-Contact" class="l-red"><strong>Date contact:</strong></label>
+																																						<label for="Date-Contact" class="l-red"><strong>&nbsp&nbsp Date contact:</strong></label>
 																																						<input type="text" name="phone" id="phone" class="form-control" placeholder="Telefon:" required />
 																																						<input type="email" name="email" id="email" class="form-control" placeholder="E-mail:" required />
 																																						<input type="text" name="address" id="address" class="form-control" placeholder="Adresa:" required />
 																																						<br>
-																																						<label for="DR" class="l-red"><strong>Date rezervare:</strong></label>
+																																						<label for="DR" class="l-red"><strong>&nbsp&nbsp Date rezervare:</strong></label>
 																																						<input type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. persoane:" required />
 																																						<input type="text" name="nr-cam" id="nr-cam" class="form-control" placeholder="Nr. camere:"required />
 																																						<input type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. nopti:" required />
@@ -520,7 +521,7 @@
 																																							class="form-row text-center">
 																																							<div
 																																								class="col">
-																																								<button type="submit" name="submit"><em>SEND<em></button>
+																																								<button type="submit" name="submit"><em>&nbsp SEND<em></button>
 
 																																							</div>
 																																						</div>
