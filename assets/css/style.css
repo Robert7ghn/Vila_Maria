@@ -17,11 +17,11 @@ p.text-center {
 }
 
 h3 {
-	color: #rgb(235, 37, 11);
+	color: rgb(235, 37, 11);
 	font-style: italic;
 	font-weight: bold;
 	letter-spacing: 2px;
-	text-shadow:1px 1px #rgb(252, 252, 252);
+	text-shadow:1px 1px rgb(252, 252, 252);
 }
 
 .fa-star {
@@ -35,7 +35,7 @@ h3 {
 }
 
 p { color:white; 
-	text-shadow:4px 4px 5px #rgb(95, 3, 5);
+	text-shadow:4px 4px 5px rgb(95, 3, 5);
 }
 
 
@@ -51,7 +51,7 @@ p.card-text {
 h4 {
 	padding: 8px;
 	font-weight:bold;
-	color:#rgb(22, 24, 21);
+	color:rgb(22, 24, 21);
 	text-shadow:4px 4px 5px white;
 }
 
@@ -96,7 +96,7 @@ button:hover {
 
 .form-control {
 	color: white;
-	background-color:#rgb(211, 72, 72);
+	background-color:rgb(211, 72, 72);
 }
 
 
@@ -169,11 +169,11 @@ button.navbar-toggler { margin-right:1.2rem;
                     background-attachment: fixed;
                     background-position: top;
                     background-size: cover;	
-					padding: 0.6rem ;			
+		    padding: 0.6rem ;			
 	}
  
 #serv	{
-		    background-color:#rgb(17, 43, 65);
+		    background-color:rgb(17, 43, 65);
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
@@ -188,7 +188,7 @@ button.navbar-toggler { margin-right:1.2rem;
 }	
 
 #rez {
-			background-color:#rgb(236, 127, 127);
+			background-color:rgb(236, 127, 127);
             width: 100%;
 			
 }
@@ -231,7 +231,7 @@ button.navbar-toggler { margin-right:1.2rem;
 
  .btn-primary {
      background-color:#221f2c;
-     border: 1px solid #rgb(8, 114, 25);
+     border: 1px solid rgb(8, 114, 25);
  }
 
  .btn-primary:hover {
@@ -246,7 +246,7 @@ button.navbar-toggler { margin-right:1.2rem;
 	margin:1.6rem 2rem 0rem 2rem;
 	padding:0.5rem;
 	border-radius: 44px;
-	background-color:#rgba(225,25,5, 0.2);
+	background-color:rgba(225,25,5, 0.2);
 }
 
 
@@ -328,11 +328,11 @@ hr.light-100 {
 	
 		width:60%;
 		height:6rem;
-		background-color:#rgba(0,125,0, 0.2);
+		background-color:rgba(0,125,0, 0.2);
 }
 
 #dotari {
-			        background-color:#rgb(206, 120, 70);
+			        background-color:rgb(206, 120, 70);
 					background-image:("../assets/img/drap.png");
                     background-repeat: no-repeat;
                     background-attachment: fixed;
