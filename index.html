@@ -25,67 +25,7 @@
 		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	
-	
 		<style>
-			.HBTN {
-				text-align: right;
-			}
-
-			button {
-				color: cyan;
-				background-color: blue;
-				padding: 6px 30px;
-				border-radius: 20px;
-				border-style: 1px solid green;
-				font-size: 18px;
-				font-weight: bold;
-			}
-
-			button:hover {
-				color: red;
-				background-color: white;
-			}
-
-			h3 {
-				color: navy;
-				font-family: Times;
-				font-style: italic;
-				letter-spacing: 2px;
-			}
-
-			h4 {
-				padding: 8px;
-				background-color: ;
-			}
-
-			h4 a {
-				color: red;
-
-			}
-
-			h4 a:hover {
-				text-decoration: none;
-				color: cyan;
-			}
-
-			h5 {
-				font-family: 'Times New Roman', Times, serif;
-				font-size: 22px;
-				letter-spacing: 2px;
-				font-weight: none;
-				font-style: italic;
-			}
-
-			.l-red {
-				color: #ff0232;
-				font-style: italic;
-			}
-
-			.form-control {
-				color: white;
-				background-color: rgba(33, 0, 77, 0.77);
-			}
-			
 		</style>
 		
 </head>
@@ -93,8 +33,8 @@
 		<!-- Navigation -->
 		<nav id="home" class="navbar navbar-expand-md navbar-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html"> <img src="assets/img/iconM.jpg" > </a>
-					<h1> &nbsp; Vila Maria <i class="fas fa-star" title="flower" style="font-size:1.2rem"></i> <i class="fas fa-star" title="flower" style="font-size:1.2rem"></i> </h1>
+				<a class="navbar-brand" href="index.html"> <img src="assets/img/iconM.jpg" width="" height="" alt="logo-image"> </a>
+					<h1> &nbsp; Vila Maria <i class="fas fa-star" title="flower"></i> <i class="fas fa-star" title="flower"></i> </h1>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                  <span   class="navbar-toggler-icon"></span>
 				</button>
@@ -139,8 +79,7 @@
 					<p class="text-center"> &nbsp; &nbsp; <em> <strong> Vila Maria </strong> 
 					va ofera servicii de cazare in statiunea montana Busteni. </em>
 					</p>
-					<p style="color:yellow; font-size:1.2rem; margin-right:3rem" class="text-right"> Va uram un
-						sejur placut ! </p>
+					<p id=j-messj> Va uram un sejur placut ! </p>
 				</div>
 			</div>
 			<br>
@@ -157,7 +96,7 @@
 				<div class="row welcome ">
 
 					<div class="col-12 text-center">
-						<h4 class="display-5" style="color:#232; font-weight:bold; text-shadow:6px 6px 6px #248f24;">
+						<h4 class="display-5">
 							&nbsp; &nbsp;
 							<em>Despre noi:</em> </h4>
 					</div>
@@ -205,7 +144,7 @@
 					</div>
 
 					<!-- Camerele ... -->
-					<div id="rooms2" class="container-fluid" style="margin:0px; padding:0px">
+					<div id="rooms2" class="container-fluid">
 
 						<div id="dotari" class="container-fluid text-center">
 							<h3> Facilitati:</h3>
@@ -216,7 +155,7 @@
 						</div>
 
 						<div id="rooms-btn" class="text-center">
-							<button style="margin-bottom:0.5rem; margin-top:0.5rem; background-color:darkred" class="btn btn-primary" data-toggle="collapse" data-target="#emoji"><i class="far fa-hand-point-right"></i> Vezi Camere </button>
+							<button class="btn btn-success" data-toggle="collapse" data-target="#emoji"><i class="far fa-hand-point-right"></i> Vezi Camerele - Aici! </button>
 							<div id="emoji" class="collapse">
 
 								<!-- CARDS -->
@@ -307,10 +246,11 @@
 					<div class="container-fluid padding" style="padding-top:0.5rem; padding-bottom:0.5rem">
 						<div class="row padding">
 							<div class="col-lg-6 text-center" style="padding-top:6rem; color:white">
-								<h3>&nbsp; &nbsp; Imprejurimi: </h3>
-								<P> Peisaje,</P>
-								<P>Alimentatie publica,</P>
-								<P>Drumetii..</P>
+								<h3>&nbsp; &nbsp; Obiective turistice: </h3>
+								<P> Trasee montane</P>
+								<P>Alimentatie publica</P>
+								<P>Drumetii</P>
+								<P>Peisaje</P>
 							</div>
 
 							<hr>
@@ -445,7 +385,7 @@
 
 																																				<div
 																																					class="carousel-item">
-																																					<img src="assets/img/nearby/view1.png" width="600" height="400" alt="">
+																																					<img src="assets/img/nearby/view1.png" width="600" height="400" alt="slide-picture">
 									                                                                                                               </div>
 
 																																					<div
@@ -460,8 +400,7 @@
 																																			<!-- Rezervari - form  -->
 																																			<div id="rez"
 																																				class="text-center">
-																																				<p
-																																					style="color:navy; font-style:italic; font-size:1.2rem; padding-top:2.5rem; padding-bottom:2.8rem">
+																																				<p>
 																																					Va
 																																					asteptam
 																																					cu
@@ -489,20 +428,20 @@
 																																								class="contact-form"
 																																								action="contactform.php"
 																																								method="post"
-																																								style="background-color:rgba(255,255,0,0.1)">
-																																								<label for="name" class="l-red"><strong>&nbsp;&nbsp; Nume:</strong></label>
+																																								style="background-color:rgba(25,255,0,0.1)">
+																																								<label for="name" class="form-name"><strong>&nbsp;&nbsp; Nume:</strong></label>
 																																								<input type="text" name="name" id="fname" class="form-control" required />
-																																								<label for="pren" class="l-red"><strong>&nbsp;&nbsp; Prenume:</strong></label>
+																																								<label for="pren" class="form-name"><strong>&nbsp;&nbsp; Prenume:</strong></label>
 																																								<input type="text" name="lname" id="lname" class="form-control" required />
-																																								<label for="b-date" class="l-red"><strong>&nbsp;&nbsp; Data nasterii:</strong></label>
+																																								<label for="b-date" class="form-name"><strong>&nbsp;&nbsp; Data nasterii:</strong></label>
 																																								<input type="text" name="b-date" id="b-date" class="form-control" required />
 																																								<br>
-																																								<label for="Date-Contact" class="l-red"><strong>&nbsp;&nbsp; Date contact:</strong></label>
+																																								<label for="Date-Contact" class="form-name"><strong>&nbsp;&nbsp; Date contact:</strong></label>
 																																								<input type="text" name="phone" id="phone" class="form-control" placeholder="Telefon:" required />
 																																								<input type="email" name="email" id="email" class="form-control" placeholder="E-mail:" required />
 																																								<input type="text" name="address" id="address" class="form-control" placeholder="Adresa:" required />
 																																								<br>
-																																								<label for="DR" class="l-red"><strong>&nbsp;&nbsp; Date rezervare:</strong></label>
+																																								<label for="DR" class="form-name"><strong>&nbsp;&nbsp; Date rezervare:</strong></label>
 																																								<input type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. persoane:" required />
 																																								<input type="text" name="nr-cam" id="nr-cam" class="form-control" placeholder="Nr. camere:" required />
 																																								<input type="text" name="nr-pers" id="nr-pers" class="form-control" placeholder="Nr. nopti:" required />
@@ -511,7 +450,7 @@
 																																									class="form-row text-center">
 																																									<div
 																																										class="col">
-																																										<button type="submit" name="submit" style="margin-bottom:0.7rem"> <em> SEND </em> </button>
+																																										<button type="submit" name="submit"> <em> Trimite! </em> </button>
 
 																																									</div>
 																																								</div>
@@ -554,7 +493,7 @@
 
 																																								<li
 																																									class="list-inline-item">
-																																									<a href="https://www.youtube.com"
+																																									<a href="https://www.youtube.com/watch?v=4k1NYdixqHY"
 																																										target="_blank"><i class="fab fa-youtube"></i></a></li>
 
 																																								<li class="list-inline-item">
@@ -638,8 +577,8 @@
 																																						class="row">
 																																						<div
 																																							class="col-6">
-																																							<h6> &#169;
-																																								www.design2web.co.uk
+																																							<h6> &#169;2021
+																																								www.designer2web.eu
 																																							</h6>
 																																						</div>
 
@@ -647,7 +586,7 @@
 																																							class="col-6">
 																																							<a
 																																								href="index.html">
-																																								<button  class="btn btn-info" >  Home  <i class="far fa-hand-point-up"> </i>      </button>
+																																								<button  class="btn btn-info" >  Sus  <i class="far fa-hand-point-up"> </i>      </button>
 																																							</a>
 																																						</div>
 																																					</div>

@@ -16,9 +16,88 @@ p.text-center {
 				font-size:1.5rem; 
 }
 
+h3 {
+	color: rgb(235, 37, 11);
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-shadow:1px 1px rgb(252, 252, 252);
+}
+
+.fa-star {
+	font-size:1.2rem;
+}
+
+#j-messj {color:yellow;
+	font-size:1.2rem;
+	margin-right:3rem;
+	text-align:right;
+}
+
+p { color:white; 
+	text-shadow:4px 4px 5px rgb(95, 3, 5);
+}
+
+
 p.descrie { color:#222; 
 		    font-weight:bold; 
 			text-shadow:4px 4px 5px white;
+}
+
+p.card-text {
+	color:black;
+}
+
+h4 {
+	padding: 8px;
+	font-weight:bold;
+	color:rgb(22 24 21);
+	text-shadow:4px 4px 5px white;
+}
+
+h4 a {
+	color: red;
+
+}
+
+h4 a:hover {
+	text-decoration: none;
+	color: cyan;
+}
+
+h5 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-weight: none;
+	font-style: italic;
+	color:coral;
+}
+
+button {
+	color: cyan;
+	background-color: blue;
+	padding: 6px 30px;
+	border-radius: 20px;
+	border-style: 1px solid green;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+button:hover {
+	color: red;
+	background-color: white;
+}
+
+
+.form-name {
+	color: #97001c;
+	font-style: italic;
+}
+
+.form-control {
+	color: white;
+	background-color:rgb(211, 72, 72);
 }
 
 
@@ -85,7 +164,7 @@ button.navbar-toggler { margin-right:1.2rem;
  
  #facil		
 				{
-					background-color: ;
+					background-color:black;
 					background-image:url('../img/peis1.png');
                     background-repeat: no-repeat;
                     background-attachment: fixed;
@@ -96,8 +175,7 @@ button.navbar-toggler { margin-right:1.2rem;
  
 #serv		
 				{
-					background-color:lightblue;
-					background-image:;
+					background-color:rgb(17, 43, 65);
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
@@ -118,9 +196,18 @@ button.navbar-toggler { margin-right:1.2rem;
 			
 }
 
-#rooms-btn {
-			background-color:#d8550aec;		
+#rooms2 {
+	padding: 0;
+	margin: 0;
 }
+
+#rooms-btn {		
+			margin-bottom:0.5rem; 
+			margin-top:0.5rem; 
+			background-color:;
+}
+
+
 
 .carousel-inner img {
      width: auto;
@@ -147,8 +234,8 @@ button.navbar-toggler { margin-right:1.2rem;
  }
 
  .btn-primary {
-     background-color:#6648b1;
-     border: 1px solid blue;
+     background-color:#221f2c;
+     border: 1px solid rgb(8, 114, 25);
  }
 
  .btn-primary:hover {
@@ -211,7 +298,7 @@ button.navbar-toggler { margin-right:1.2rem;
 
 footer {
 	line-height:.04rem;
-    background-color:#3f3f3f;
+    background-color:#100d31de;
     color: #e5e5e5;
     padding-top: 0.2rem;
 }
@@ -228,6 +315,8 @@ hr.light {
     margin-top: .8rem;
     margin-bottom: 1rem;
     }
+
+	
 footer a {
     color:red;
 }
@@ -247,7 +336,7 @@ hr.light-100 {
 }
 
 #dotari {
-			        background-color:orange;
+			        background-color:rgb(206, 120, 70);
 					background-image:url("../assets/img/drap.png");
                     background-repeat: no-repeat;
                     background-attachment: fixed;
@@ -257,17 +346,16 @@ hr.light-100 {
 }
 
 
-     <!-- Media queries -------------------------------------------->
+     <!-- Media queries --->
 
-@media (max-width:768px) {
-
+ @media (max-width:768px) {
+	 
 .display-5 {
 	font-size:160%;
 }
 
-
 .carousel-caption  {
- 	top: 45%;
+top: 45%;
  }
 
  .carousel-caption h1 {
@@ -289,12 +377,8 @@ hr.light-100 {
 	font-size:2.5em;
 	padding: 1.2rem;
 }
+}
 
-.social a {
-	font-size:2.5em;
-	padding: 1.2rem;
-}
-}
 
 @media (max-width:576px) {
 	
