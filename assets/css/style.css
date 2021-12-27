@@ -12,80 +12,80 @@ body {
 
 p.text-center {
 				padding-top:1rem;
-				color:yellow; 
+				color:#yellow; 
 				font-size:1.5rem;
 }
 
 h3 {
-	color: rgb(235, 37, 11);
+	color: #rgb(235, 37, 11);
 	font-style: italic;
 	font-weight: bold;
 	letter-spacing: 2px;
-	text-shadow:1px 1px rgb(252, 252, 252);
+	text-shadow:1px 1px #rgb(252, 252, 252);
 }
 
 .fa-star {
 	font-size:1.2rem;
 }
 
-#j-messj {color:yellow;
+#j-messj {color:#yellow;
 	font-size:1.2rem;
 	margin-right:3rem;
 	text-align:right;
 }
 
-p { color:white; 
-	text-shadow:4px 4px 5px rgb(95, 3, 5);
+p { color:#white; 
+	text-shadow:4px 4px 5px #rgb(95, 3, 5);
 }
 
 
 p.descrie { color:#222; 
 		    font-weight:bold; 
-			text-shadow:4px 4px 5px white;
+			text-shadow:4px 4px 5px #white;
 }
 
 p.card-text {
-	color:black;
+	color:#black;
 }
 
 h4 {
 	padding: 8px;
 	font-weight:bold;
-	color:rgb(22 24 21);
-	text-shadow:4px 4px 5px white;
+	color:#rgb(22 24 21);
+	text-shadow:4px 4px 5px #white;
 }
 
 h4 a {
-	color: red;
+	color: #red;
 
 }
 
 h4 a:hover {
 	text-decoration: none;
-	color: cyan;
+	color:#cyan;
 }
 
 h5 {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Times New Roman', Serif;
 	font-size: 22px;
 	letter-spacing: 2px;
 	font-style: italic;
-	color:coral;
+	color:#coral;
 }
 
 button {
-	color: cyan;
-	background-color: blue;
+	color: #cyan;
+	background-color: #blue;
 	padding: 6px 30px;
 	border-radius: 20px;
-	border-style: 1px solid green;
+	border: 1px solid #green;
 	font-size: 18px;
 	font-weight: bold;
 }
 
 button:hover {
-	color: red;
-	background-color: white;
+	color: #red;
+	background-color: #white;
 }
 
 
@@ -95,22 +95,22 @@ button:hover {
 }
 
 .form-control {
-	color: white;
-	background-color:rgb(211, 72, 72);
+	color: #white;
+	background-color:#rgb(211, 72, 72);
 }
 
 
 .container-fluid a.navbar-brand img {
-										border: 1.2px solid white;
+										border: 1.2px solid #white;
 										border-radius:50%;
 										margin:0px;
 										padding:0px;
 									}
  
  nav div h1 {
-			  color:red;
-			  text-shadow:5px 5px 9px black;
-			  font-family: Times,sans;
+			  color:#red;
+			  text-shadow:5px 5px 9px #black;
+			  font-family:'Times new roman',Serif;
 			  padding-left:0.2rem;
 			}
 			
@@ -124,12 +124,12 @@ button:hover {
 												color:#00cc33;
 												margin-right:0.3rem;
 												font-size:1.4rem;
-												font-family: Times,sans;
+												 font-family:'Times new roman',Serif;
 												font-weight:bold;
 										}
 
 .navbar-light .navbar-nav .nav-link:hover {
-												color:red;
+												color:#red;
 										}
 
 
@@ -140,7 +140,7 @@ button.navbar-toggler { margin-right:1.2rem;
 							background-color:#222;
 	}
 
-	span.navbar-toggler-icon { color:blue;
+	span.navbar-toggler-icon { color:#blue;
 	background-color:#55ff55;
 	}									
  
@@ -148,12 +148,12 @@ button.navbar-toggler { margin-right:1.2rem;
 				background-color:#005E00;	
 				margin-top:0px;
 				padding-left:1rem;
-				border-bottom:0.1rem groove red;
+				border-bottom:0.1rem groove #red;
 			}
 
  .btn-primary {
      background-color:#6648b1;
-     border: 1px solid blue;
+     border: 1px solid #blue;
  }
 
  .btn-primary:hover {
@@ -163,7 +163,7 @@ button.navbar-toggler { margin-right:1.2rem;
  
  #facil		
 				{
-					background-color:black;
+					background-color:#black;
 					background-image:url('../img/peis1.png');
                     background-repeat: no-repeat;
                     background-attachment: fixed;
@@ -174,7 +174,7 @@ button.navbar-toggler { margin-right:1.2rem;
  
 #serv		
 				{
-					background-color:rgb(17, 43, 65);
+					background-color:#rgb(17, 43, 65);
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
@@ -190,7 +190,7 @@ button.navbar-toggler { margin-right:1.2rem;
 }	
 
 #rez {
-			background-color:rgb(236, 127, 127);
+			background-color:#rgb(236, 127, 127);
             width: 100%;
 			
 }
@@ -203,7 +203,6 @@ button.navbar-toggler { margin-right:1.2rem;
 #rooms-btn {		
 			margin-bottom:0.5rem; 
 			margin-top:0.5rem; 
-			background-color:;
 }
 
 
@@ -216,12 +215,12 @@ button.navbar-toggler { margin-right:1.2rem;
  .carousel-caption {
      position: absolute;
      top: 30%;
-     transform: translateY(-50%);
+     transform: translatey (-50%);
  }
 
  .carousel-caption h1 {
      font-size: 150%;
-     text-transform: upercase;
+     text-transform: uppercase;
      text-shadow: 4px 4px 15px #000;
  }
 
@@ -229,12 +228,12 @@ button.navbar-toggler { margin-right:1.2rem;
      font-size: 80%;
      font-weight:200;
      text-shadow: 1px 1px 10px #000;
-     padding: bottom 1rem;  
+     padding-bottom: 1rem;  
  }
 
  .btn-primary {
      background-color:#221f2c;
-     border: 1px solid rgb(8, 114, 25);
+     border: 1px solid #rgb(8, 114, 25);
  }
 
  .btn-primary:hover {
@@ -249,7 +248,7 @@ button.navbar-toggler { margin-right:1.2rem;
 	margin:1.6rem 2rem 0rem 2rem;
 	padding:0.5rem;
 	border-radius: 44px;
-	background-color:rgba(225,25,5, 0.2);
+	background-color:#rgba(225,25,5, 0.2);
 }
 
 
@@ -291,7 +290,7 @@ button.navbar-toggler { margin-right:1.2rem;
  .fa-instagram:hover,
  .fa-youtube:hover
             {
-       color:white;
+       color:#white;
    }
 
 
@@ -317,7 +316,7 @@ hr.light {
 
 	
 footer a {
-    color:red;
+    color:#red;
 }
 
 hr.light-100 {
@@ -331,12 +330,12 @@ hr.light-100 {
 	
 		width:60%;
 		height:6rem;
-		background-color:rgba(0,125,0, 0.2);
+		background-color:#rgba(0,125,0, 0.2);
 }
 
 #dotari {
-			        background-color:rgb(206, 120, 70);
-					background-image:url("../assets/img/drap.png");
+			        background-color:#rgb(206, 120, 70);
+					background-image:("../assets/img/drap.png");
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
@@ -345,7 +344,7 @@ hr.light-100 {
 }
 
 
-     <!-- Media queries --->
+     </--Media queries--/>
 
  @media (max-width:768px) {
 	 
@@ -397,7 +396,7 @@ top: 45%;
      font-weight:400;
      padding: bottom .2rem;  
  }
-.carousel-caption .bnt {	
+.carousel-caption.bnt {	
 	font-size:90%;
 	padding:4px 8px;
 }
