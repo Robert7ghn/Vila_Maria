@@ -213,7 +213,7 @@ button.navbar-toggler { margin-right:1.2rem;
  .carousel-caption {
      position: absolute;
      top: 30%;
-     transform: translatey (-50%);
+     transform: translateY(-20px);
  }
 
  .carousel-caption h1 {
