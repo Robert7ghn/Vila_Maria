@@ -332,8 +332,7 @@ hr.light-100 {
 }
 
 #dotari {
-			        background-color:rgb(206, 120, 70);
-					background-image:("../assets/img/drap.png");
+		    background-color:rgb(206, 120, 70);
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
@@ -372,7 +371,7 @@ top: 45%;
 .social a {
 	font-size:2.5em;
 	padding: 1.2rem;
-}
+	}
 }
 
 
@@ -386,18 +385,22 @@ top: 45%;
 .carousel-caption  {
  	top: 40%;
  }
+	
  .carousel-caption h1 {
      font-size: 250%;
  }
+	
 .carousel-caption h3 {
      font-size: 110%;
      font-weight:400;
     padding-bottom: 0.2rem; 
  }
+	
 .carousel-caption.bnt {	
 	font-size:90%;
 	padding:4px 8px;
 }
+	
 .carousel-indicators {
 	display:inline;
 }
@@ -405,8 +408,7 @@ top: 45%;
 .social a {
 	font-size:2em;
 	padding: 0.7rem;
-}
-
+	}
 }
  
 
