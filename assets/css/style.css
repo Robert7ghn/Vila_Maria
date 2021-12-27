@@ -12,7 +12,7 @@ body {
 
 p.text-center {
 				padding-top:1rem;
-				color:#yellow; 
+				color:yellow; 
 				font-size:1.5rem;
 }
 
@@ -28,41 +28,41 @@ h3 {
 	font-size:1.2rem;
 }
 
-#j-messj {color:#yellow;
+#j-messj {color:yellow;
 	font-size:1.2rem;
 	margin-right:3rem;
 	text-align:right;
 }
 
-p { color:#white; 
+p { color:white; 
 	text-shadow:4px 4px 5px #rgb(95, 3, 5);
 }
 
 
-p.descrie { color:#222; 
+p.descrie { color:grey; 
 		    font-weight:bold; 
-			text-shadow:4px 4px 5px #white;
+			text-shadow:4px 4px 5px white;
 }
 
 p.card-text {
-	color:#black;
+	color:black;
 }
 
 h4 {
 	padding: 8px;
 	font-weight:bold;
-	color:#rgb(22 24 21);
-	text-shadow:4px 4px 5px #white;
+	color:#rgb(22, 24, 21);
+	text-shadow:4px 4px 5px white;
 }
 
 h4 a {
-	color: #red;
+	color:red;
 
 }
 
 h4 a:hover {
 	text-decoration: none;
-	color:#cyan;
+	color:cyan;
 }
 
 h5 {
@@ -70,22 +70,22 @@ h5 {
 	font-size: 22px;
 	letter-spacing: 2px;
 	font-style: italic;
-	color:#coral;
+	color:coral;
 }
 
 button {
-	color: #cyan;
-	background-color: #blue;
+	color:cyan;
+	background-color: blue;
 	padding: 6px 30px;
 	border-radius: 20px;
-	border: 1px solid #green;
+	border: 1px solid green;
 	font-size: 18px;
 	font-weight: bold;
 }
 
 button:hover {
-	color: #red;
-	background-color: #white;
+	color: red;
+	background-color: white;
 }
 
 
@@ -95,21 +95,21 @@ button:hover {
 }
 
 .form-control {
-	color: #white;
+	color: white;
 	background-color:#rgb(211, 72, 72);
 }
 
 
 .container-fluid a.navbar-brand img {
-										border: 1.2px solid #white;
+										border: 1.2px solid white;
 										border-radius:50%;
 										margin:0px;
 										padding:0px;
 									}
  
  nav div h1 {
-			  color:#red;
-			  text-shadow:5px 5px 9px #black;
+			  color:red;
+			  text-shadow:5px 5px 9px black;
 			  font-family:'Times new roman',Serif;
 			  padding-left:0.2rem;
 			}
@@ -129,7 +129,7 @@ button:hover {
 										}
 
 .navbar-light .navbar-nav .nav-link:hover {
-												color:#red;
+												color:red;
 										}
 
 
@@ -140,7 +140,7 @@ button.navbar-toggler { margin-right:1.2rem;
 							background-color:#222;
 	}
 
-	span.navbar-toggler-icon { color:#blue;
+	span.navbar-toggler-icon { color:blue;
 	background-color:#55ff55;
 	}									
  
@@ -148,12 +148,12 @@ button.navbar-toggler { margin-right:1.2rem;
 				background-color:#005E00;	
 				margin-top:0px;
 				padding-left:1rem;
-				border-bottom:0.1rem groove #red;
+				border-bottom:0.1rem groove red;
 			}
 
  .btn-primary {
      background-color:#6648b1;
-     border: 1px solid #blue;
+     border: 1px solid blue;
  }
 
  .btn-primary:hover {
@@ -163,7 +163,7 @@ button.navbar-toggler { margin-right:1.2rem;
  
  #facil		
 				{
-					background-color:#black;
+					background-color:black;
 					background-image:url('../img/peis1.png');
                     background-repeat: no-repeat;
                     background-attachment: fixed;
@@ -172,21 +172,19 @@ button.navbar-toggler { margin-right:1.2rem;
 					padding: 0.6rem ;			
 	}
  
-#serv		
-				{
-					background-color:#rgb(17, 43, 65);
+#serv	{
+		    background-color:#rgb(17, 43, 65);
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
                     background-size: cover;	
 					padding: 1.2rem ;
-					
 	}
 	
 	
 #contact {	word-spacing: 0.6rem;
-			letter-spacing:8px;
-			padding:0.4rem;
+		letter-spacing:8px;
+		padding:0.4rem;
 }	
 
 #rez {
@@ -253,7 +251,7 @@ button.navbar-toggler { margin-right:1.2rem;
 
 
 .welcome {
-	height:auto;
+    height:auto;
     width: 90%;
     margin: 2px auto;
     padding-top: 0.1rem;
@@ -290,7 +288,7 @@ button.navbar-toggler { margin-right:1.2rem;
  .fa-instagram:hover,
  .fa-youtube:hover
             {
-       color:#white;
+       color:white;
    }
 
 
@@ -316,7 +314,7 @@ hr.light {
 
 	
 footer a {
-    color:#red;
+    color:red;
 }
 
 hr.light-100 {
@@ -363,7 +361,7 @@ top: 45%;
 .carousel-caption h3 {
      font-size: 140%;
      font-weight:400;
-     padding: bottom .2rem;  
+     padding-bottom: 0.2rem;  
  }
 
 .carousel-caption .bnt {	
@@ -394,7 +392,7 @@ top: 45%;
 .carousel-caption h3 {
      font-size: 110%;
      font-weight:400;
-     padding: bottom .2rem;  
+    padding-bottom: 0.2rem; 
  }
 .carousel-caption.bnt {	
 	font-size:90%;
@@ -406,7 +404,7 @@ top: 45%;
 
 .social a {
 	font-size:2em;
-	padding: .7rem;
+	padding: 0.7rem;
 }
 
 }
