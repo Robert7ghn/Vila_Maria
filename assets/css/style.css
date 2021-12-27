@@ -13,7 +13,7 @@ body {
 p.text-center {
 				padding-top:1rem;
 				color:yellow; 
-				font-size:1.5rem; 
+				font-size:1.5rem;
 }
 
 h3 {
@@ -69,7 +69,6 @@ h5 {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 22px;
 	letter-spacing: 2px;
-	font-weight: none;
 	font-style: italic;
 	color:coral;
 }
